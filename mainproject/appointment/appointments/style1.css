@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding:0;
+	background: url(a5.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+}
+
+.title
+{
+	text-align:center;
+	padding: 40px 0 10px;
+	margin:0;
+	padding:0;
+	color:#5b6060;
+	text-transform:uppercase ;
+    font-size:25px;
+
+
+}
+.container{
+    
+	width:50%;
+	height: 500px;
+	background: #fff;
+	margin:0 auto;
+	border:2px solid #cdb6e5;
+    box-shadow:0 15px 40px rgbs(0,0,0,.5);
+
+}
+.container .left
+{
+
+	float:left;
+	width:50%;
+	height:500px;
+	background:url(a4.jpg);
+	box-sizing:border-box;
+	background-size:cover;
+}
+
+.container .right 
+{
+	border:2px solid #cdb6e5;
+	text-align: center;
+	float:right;
+	width:50%;
+	height:500px;
+	box-sizing: border-box;
+	background:url(h2.jpg);
+	
+}
+
+.container .right .navbar
+{
+	border:2px solid #cdb6e5;
+	height:55px;
+	background:#cebce1;
+	font-size: 1.5rem;
+	font-family:auto;
+	margin:0 auto;
+
+}
+
+
+.container .right .row-md-4
+{
+	font-size:1.2rem;
+	font-family: system-ui;
+	text-align: center;
+	box-sizing: border-box;
+	
+}
+
+
+select{
+	text-align: center;
+	border:1px solid #777;
+	padding:.8rem 3rem .8rem .5rem;
+	border-radius: 3px;
+	color:#565656;
+	-moz-appearance:none;
+	appearance:none;
+	cursor: pointer;
+	
+
+
+}
+
+.imgBgMethod
+{
+	display: inline-block;
+	position: relative;
+}
+.imgBgMethod select
+{
+
+	background: #fff url("a2.jpg") 
+}
+
+select:focus{
+border:1px solid blue;	
+
+}
+
+input[type="text"]{
+	width:100%;
+	padding: 5px;
+	font-size: 17px;
+}
+.button{
+	 width:50%;
+       padding: 10px;
+       font-size: 25px;	
+       text-align: center;
+       background: #fff url("a2.jpg") 
+       cursor: pointer;
+}
